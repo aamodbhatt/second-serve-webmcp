@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:03,210
+Good food goes to waste while community kitchens need meals.
+
+2
+00:00:03,210 --> 00:00:08,773
+The hard part is coordinating changing constraints without losing commitments people have already made.
+
+3
+00:00:08,773 --> 00:00:13,588
+This is Second Serve, a shared food rescue workspace for people and their browser agents.
+
+4
+00:00:14,588 --> 00:00:17,206
+The website exposes six real Web MCP tools.
+
+5
+00:00:17,206 --> 00:00:21,834
+The browser discovered these tools and called them during this walkthrough.
+
+6
+00:00:21,834 --> 00:00:27,619
+An agent can read the workspace, compare plans, explain rejected matches, and stage proposals.
+
+7
+00:00:27,619 --> 00:00:31,759
+These calls use the same application state as the visible controls.
+
+8
+00:00:32,759 --> 00:00:38,352
+Here, a real stage plan tool call puts a 480 portion proposal directly on the board.
+
+9
+00:00:38,352 --> 00:00:45,876
+A min cost maximum flow solver checks capacity, diets, declared allergen exclusions, and estimated time windows.
+
+10
+00:00:45,876 --> 00:00:47,407
+The agent can propose.
+
+11
+00:00:47,407 --> 00:00:50,270
+Approval stays in the visible review flow.
+
+12
+00:00:51,270 --> 00:00:56,849
+After approving, I protect the 120 portion assignment from The Green Kitchen to Hope Community.
+
+13
+00:00:56,849 --> 00:00:59,844
+This represents a commitment already made locally.
+
+14
+00:00:59,844 --> 00:01:05,129
+The planner must preserve that exact quantity and destination when the situation changes.
+
+15
+00:01:05,129 --> 00:01:09,181
+If a protected commitment becomes impossible, it reports a conflict.
+
+16
+00:01:10,181 --> 00:01:13,751
+Now Open Table can only receive 30 portions instead of 100.
+
+17
+00:01:13,751 --> 00:01:18,893
+A real Web MCP capacity update changes the board and flags the old plan immediately.
+
+18
+00:01:18,893 --> 00:01:24,398
+The current revision protects against stale agent calls overwriting newer human decisions.
+
+19
+00:01:25,398 --> 00:01:28,964
+The agent stages a fresh feasible plan for 410 portions.
+
+20
+00:01:28,964 --> 00:01:32,975
+The protected 120 stay exactly where the coordinator put them.
+
+21
+00:01:32,975 --> 00:01:36,732
+Seventy portions remain unassigned, with a visible reason.
+
+22
+00:01:36,732 --> 00:01:42,080
+Second Serve exposes the shortfall rather than pretending every meal can be placed.
+
+23
+00:01:43,080 --> 00:01:47,009
+The activity trail distinguishes human decisions from agent calls.
+
+24
+00:01:47,009 --> 00:01:52,129
+Read only what if tools let an agent explore alternatives without changing the board.
+
+25
+00:01:52,129 --> 00:01:54,808
+Invalid inputs fail without partial updates.
+
+26
+00:01:54,808 --> 00:02:00,284
+The tests cover constraints, protected commitments, revision conflicts, and human approval.
+
+27
+00:02:01,284 --> 00:02:07,084
+After another human review, the approved plan is available as a structured manifest or CSV handoff.
+
+28
+00:02:07,084 --> 00:02:11,888
+The app runs without an account or API key, and supports importing your own data.
+
+29
+00:02:11,888 --> 00:02:15,285
+These demo records and travel estimates are illustrative.
+
+30
+00:02:15,285 --> 00:02:17,043
+No deliveries are dispatched.
+
+31
+00:02:17,043 --> 00:02:21,378
+Second Serve shows agents working with our decisions, where we make them.

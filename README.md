@@ -4,6 +4,8 @@
 
 ![Second Serve](public/og.png)
 
+[Download the narrated 2:23 demo](submission/second-serve-demo.mp4) · [Submission text](submission/DEVPOST.md) · [Validation record](submission/VALIDATION.md)
+
 A coordinator knows which commitments matter. An agent can compare constraints and explore alternatives. Second Serve lets them work in one shared browser state: propose, review, protect, disrupt, and replan.
 
 ## Quick start
@@ -86,7 +88,7 @@ Dataset inputs are saved only in localStorage in this browser. No backend receiv
 - `tests/rescue.test.mjs`: allocation, constraints, failures, transactions, revisions
 - `submission/`: Devpost copy, demo script, and submission checklist
 
-Built with React 19, TypeScript, Vinext/Vite, shadcn/Base UI, Lucide, and Sites/Cloudflare-compatible hosting. MIT licensed. Social preview generated with OpenAI ImageGen; icons use Lucide's ISC-licensed library. Third-party packages retain their respective licenses.
+Production is a static export in `dist/client/`, served through Sites. No server runtime bundles or server-action endpoints are deployed. Built with React 19, TypeScript, Vinext/Vite, shadcn/Base UI, Lucide, and Sites/Cloudflare-compatible hosting. MIT licensed. Social preview generated with OpenAI ImageGen; icons use Lucide's ISC-licensed library. Third-party packages retain their respective licenses.
 
 ## Challenge references
 
