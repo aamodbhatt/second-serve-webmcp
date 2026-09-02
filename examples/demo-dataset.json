@@ -1,0 +1,146 @@
+{
+  "donors": [
+    {
+      "id": "d1",
+      "name": "The Green Kitchen",
+      "food": "Vegetable bowls",
+      "portions": 120,
+      "diet": "vegan",
+      "allergens": [
+        "sesame"
+      ],
+      "ready": 1020,
+      "deadline": 1065,
+      "x": 25,
+      "y": 20
+    },
+    {
+      "id": "d2",
+      "name": "Sunrise Bakery",
+      "food": "Bread & pastries",
+      "portions": 80,
+      "diet": "vegetarian",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "ready": 1020,
+      "deadline": 1140,
+      "x": 15,
+      "y": 65
+    },
+    {
+      "id": "d3",
+      "name": "Campus Canteen",
+      "food": "Rice & dal",
+      "portions": 100,
+      "diet": "vegan",
+      "allergens": [],
+      "ready": 1020,
+      "deadline": 1110,
+      "x": 65,
+      "y": 25
+    },
+    {
+      "id": "d4",
+      "name": "Garden Bistro",
+      "food": "Seasonal grain bowls",
+      "portions": 60,
+      "diet": "vegan",
+      "allergens": [
+        "gluten"
+      ],
+      "ready": 1035,
+      "deadline": 1125,
+      "x": 45,
+      "y": 75
+    },
+    {
+      "id": "d5",
+      "name": "Market Collective",
+      "food": "Fruit & yogurt boxes",
+      "portions": 70,
+      "diet": "vegetarian",
+      "allergens": [
+        "milk"
+      ],
+      "ready": 1020,
+      "deadline": 1155,
+      "x": 80,
+      "y": 60
+    },
+    {
+      "id": "d6",
+      "name": "Neighbourhood Deli",
+      "food": "Chicken sandwiches",
+      "portions": 50,
+      "diet": "any",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "ready": 1020,
+      "deadline": 1095,
+      "x": 35,
+      "y": 45
+    }
+  ],
+  "kitchens": [
+    {
+      "id": "k1",
+      "name": "Hope Community",
+      "capacity": 130,
+      "diet": "vegan",
+      "excludes": [],
+      "closes": 1110,
+      "x": 30,
+      "y": 30
+    },
+    {
+      "id": "k2",
+      "name": "Open Table",
+      "capacity": 100,
+      "diet": "vegetarian",
+      "excludes": [],
+      "closes": 1140,
+      "x": 22,
+      "y": 72
+    },
+    {
+      "id": "k3",
+      "name": "Night Shelter",
+      "capacity": 110,
+      "diet": "any",
+      "excludes": [],
+      "closes": 1170,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "id": "k4",
+      "name": "Little Steps",
+      "capacity": 80,
+      "diet": "vegetarian",
+      "excludes": [
+        "sesame"
+      ],
+      "closes": 1095,
+      "x": 72,
+      "y": 28
+    },
+    {
+      "id": "k5",
+      "name": "Westside Pantry",
+      "capacity": 60,
+      "diet": "any",
+      "excludes": [
+        "milk"
+      ],
+      "closes": 1140,
+      "x": 40,
+      "y": 65
+    }
+  ],
+  "now": 1020,
+  "maxMinutes": 35
+}
