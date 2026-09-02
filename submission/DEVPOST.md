@@ -1,3 +1,8 @@
+# Submission links
+Live app: https://second-serve-rescue.therealaamod.chatgpt.site
+Public source: https://github.com/aamodbhatt/second-serve-webmcp
+Demo video: upload the included MP4 to public YouTube and use that URL.
+
 # Project name
 Second Serve
 

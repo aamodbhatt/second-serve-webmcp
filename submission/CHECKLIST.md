@@ -1,5 +1,13 @@
 # Submission handoff
 
+Live app: https://second-serve-rescue.therealaamod.chatgpt.site
+
+Public repository: https://github.com/aamodbhatt/second-serve-webmcp
+
+Demo download: https://github.com/aamodbhatt/second-serve-webmcp/raw/refs/heads/main/submission/second-serve-demo.mp4
+
+YouTube URL: still requires public upload.
+
 Deadline: September 3, 2026 at 1:00 p.m. PDT = September 4, 2026 at 1:30 a.m. Asia/Kolkata.
 
 1. Register at https://webmcp.devpost.com/ and verify personal eligibility in the official rules.

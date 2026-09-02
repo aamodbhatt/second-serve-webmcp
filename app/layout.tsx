@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://second-serve-rescue.chatgpt.site'),
+  metadataBase: new URL('https://second-serve-rescue.therealaamod.chatgpt.site'),
   icons: { icon: '/favicon.svg' },
   openGraph: {title: 'Second Serve — Every meal has a next stop', description: 'People + agents. Less food waste.', images: ['/og.png']},
   twitter: {card: 'summary_large_image', title: 'Second Serve', description: 'Every meal has a next stop.', images: ['/og.png']},

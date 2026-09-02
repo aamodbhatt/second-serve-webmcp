@@ -2,6 +2,8 @@
 
 **Every meal has a next stop.** A food-rescue planning workspace for people and their browser agents, built for the WebMCP Challenge 2026.
 
+**[Open the live app](https://second-serve-rescue.therealaamod.chatgpt.site)**
+
 ![Second Serve](public/og.png)
 
 [Download the narrated 2:23 demo](submission/second-serve-demo.mp4) · [Submission text](submission/DEVPOST.md) · [Validation record](submission/VALIDATION.md)
